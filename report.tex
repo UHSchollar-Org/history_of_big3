@@ -1,9 +1,15 @@
 \documentclass{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
 \usepackage{amsfonts}
 \usepackage{amsthm}
 \usepackage{amsmath}
 \usepackage{graphicx}
+\usepackage{makeidx}
+\usepackage{hyperref}
 \setlength{\parindent}{0cm}
+\bibliographystyle{IEEEtran}
+
 
 
 \begin{document}
@@ -72,8 +78,8 @@ de 1990, se produjo un gran avance con el desarrollo del transistor de efecto t�
 eficacia energética y un mayor rendimiento.
 
 Hoy en día, los transistores son fundamentales para la electrónica moderna y se utilizan en casi todos los 
-dispositivos electrónicos. Se dice que el transistor fue para la era digital, lo que la máquina de vapor había
-sido durante la revolución industrial. (CITAR LIBRO LOS INNOVADORES) 
+dispositivos electrónicos. \cite{isaacson2019innovadores} plantea que el transistor fue para la era digital, lo que la máquina de vapor había
+sido durante la revolución industrial.
 La miniaturización de los transistores sigue avanzando a un ritmo rápido, lo que permite la creación de 
 dispositivos cada vez más pequeños y eficientes en cuanto a energía.
 
@@ -157,5 +163,12 @@ A lo largo de la historia, el transistor, el circuito integrado y el microproces
 y desarrollo continuos, y se espera que sigan evolucionando en el futuro. El impacto de estos avances tecnológicos 
 en nuestra sociedad es indudable, y es probable que continúen transformando nuestras vidas 
 en formas aún más sorprendentes e inesperadas en los años venideros.
+%\begin{thebibliography}{2}
+
+%\bibitem{Wal} \textsc{Walter Isaacson},\textit{Los Innovadores}, Editorial: National Geographic Books, 2019.
+
+%\end{thebibliography}
+
+\bibliography{references}
 
 \end{document}
